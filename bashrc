@@ -4,7 +4,7 @@
 # Created By        : Guillaume FAVRE
 # Creation Date     : juin 12th, 2015
 # Version           : 0.1
-# Last Change       : juin 12th, 2015 at 15:39:10
+# Last Change       : juin 23th, 2015 at 10:14:28
 # Last Changed By   : Guillaume FAVRE
 # Purpose           : Description
 #
@@ -14,7 +14,7 @@
 # alias 
 # functions
 # miscs
-
+export EDITOR=vim
 # Notes main function
 # Possible options: -d
 #+                  --delete
