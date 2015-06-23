@@ -1,4 +1,5 @@
 #!/usr/local/bin/bash
+
 rm -r ${HOME}/.bashrc ${HOME}/.vimrc
 
 ln -s ${HOME}/pers/conf/bashrc ${HOME}/.bashrc
@@ -16,4 +17,5 @@ git clone https://github.com/gmarik/Vundle.vim.git ${HOME}/.vim/bundle/Vundle.vi
 vim +PluginInstall +qall
 
 source ${HOME}/.bashrc
+
 clear
