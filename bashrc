@@ -4,13 +4,15 @@
 # Created By        : Guillaume FAVRE
 # Creation Date     : juin 12th, 2015
 # Version           : 0.1
-# Last Change       : juin 23th, 2015 at 10:14:28
+# Last Change       : September 10th, 2015 at 14:29:01
 # Last Changed By   : Guillaume FAVRE
 # Purpose           : Description
 #
 ###############################################################################
 #!/usr/bin/bash
 
+#Prompt configuration
+export PS1="<\[\033[38;5;21m\]\d-\A\[$(tput sgr0)\]\[\033[38;5;15m\]>\[$(tput sgr0)\]\[\033[38;5;57m\]\u\[$(tput sgr0)\]\[\033[38;5;160m\]@\[$(tput sgr0)\]\[\033[38;5;57m\]\h\[$(tput sgr0)\]\[\033[38;5;160m\]:\[$(tput sgr0)\]\[\033[38;5;2m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\]\n\\$\[$(tput sgr0)\]"
 # alias 
 # functions
 # miscs
