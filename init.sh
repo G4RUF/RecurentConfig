@@ -2,8 +2,8 @@
 
 rm -r ${HOME}/.bashrc ${HOME}/.vimrc
 
-ln -s ${HOME}/pers/conf/bashrc ${HOME}/.bashrc
-ln -s ${HOME}/pers/conf/vimrc ${HOME}/.vimrc
+ln -s ${PWD}/bashrc ${HOME}/.bashrc
+ln -s ${PWD}/vimrc ${HOME}/.vimrc
 
 if ! [ -d ${HOME}/.vim ]; then
 	mkdir ${HOME}/.vim
