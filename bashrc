@@ -4,7 +4,7 @@
 # Created By        : Guillaume FAVRE
 # Creation Date     : juin 12th, 2015
 # Version           : 0.1
-# Last Change       : September 10th, 2015 at 14:29:01
+# Last Change       : septembre 11th, 2015 at 15:15:39
 # Last Changed By   : Guillaume FAVRE
 # Purpose           : Description
 #
@@ -18,8 +18,7 @@ export PS1="<\[\033[38;5;21m\]\d-\A\[$(tput sgr0)\]\[\033[38;5;15m\]>\[$(tput sg
 # miscs
 export EDITOR=vim
 # Notes main function
-# Possible options: -d
-#+                  --delete
+# Possible options: 
 
 # -> Notes environment variable
 notpath=${HOME}/pers/note
